@@ -9,7 +9,7 @@ class Api {
 		try {
 		    //console.log(path)
 			//console.log(proxy + path)
-			const res = await axios.post(path,item);
+			const res = await axios.post(proxy + path, item);
 			const res_data = await res.data;
 			//console.log(res.data);
 			return res_data;
@@ -21,7 +21,7 @@ class Api {
 
 	async put(path, item) {
 		try {
-			const res = await axios.put(path,item);
+			const res = await axios.put(proxy + path, item);
 			const res_data = await res.data;
 			return res_data;
 		} catch (err) {
@@ -32,7 +32,7 @@ class Api {
 
 	async delete(path) {
 		try {
-			const res = await axios.delete(path);
+			const res = await axios.delete(proxy + path);
 			const res_data = await res.data;
 			//console.log(res.data);
 			return res_data;
