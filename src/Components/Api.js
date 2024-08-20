@@ -1,7 +1,8 @@
 import axios from "axios";
 import Cookies from "js-cookie"
 
-const proxy = 'http://localhost:8000';
+// const proxy = 'http://localhost:8000';
+const proxy = 'https://sckgbackend-5d3940a40c50.herokuapp.com';
 
 class Api {
     async post(path, item) {
