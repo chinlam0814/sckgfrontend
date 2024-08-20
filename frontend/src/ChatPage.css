@@ -1,0 +1,60 @@
+.whole-chat-page-design {
+  overflow-y: auto;
+}
+
+.chat {
+  height: 580px;
+  width: 1200px;
+  overflow-y: auto;
+}
+
+.alert-box-design {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.space-design {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.history-list-design {
+  margin-left: 20px;
+  width: 350px;
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.text-history-card-design {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chat-box-design {
+    margin-left: 20px;
+    height: 680px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.text-file-input {
+  display: flex;
+  justify-content: center;
+}
+
+.attach-file-button {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.send-text-input-box {
+  margin-top: 20px;
+}
+
+.send-button-icon {
+  margin-top: 20px;
+  margin-left: 10px;
+}

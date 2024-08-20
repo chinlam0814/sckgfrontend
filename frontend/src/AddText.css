@@ -1,0 +1,10 @@
+.add-text-box-design {
+    margin: 50px;
+    text-align: center;
+}
+
+.add-text-box-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}

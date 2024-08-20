@@ -1,0 +1,9 @@
+.graph-box-design {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.knowledge-graph-title {
+    text-align: center;
+}

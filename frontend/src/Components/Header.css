@@ -1,0 +1,38 @@
+.button-design {
+    padding-left: 30px;
+}
+
+.icon-design {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.home-icon-design {
+    align-self: flex-start;
+}
+
+.right-icon-design {
+    display: flex;
+}
+
+.add-file-icon-design {
+    margin-right: 20px;
+}
+
+.account-icon-design {
+    margin-right: 20px;
+}
+
+.add-user-icon-design {
+    margin-right: 20px;
+}
+
+.chat-box-icon-design {
+    margin-right: 20px;
+}
+
+.hr-2 {
+    margin: 10px;
+    background-color: black;
+}
