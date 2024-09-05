@@ -230,7 +230,7 @@ const ChatBoxPage = () => {
 
     const prompt_template = {
         "description": "请根据提供文本，提取出所有的三元组信息，找出所有相关的人、事和概念。每个句子都要提取三元组。文本包含主语、谓语和宾语。实体1(entity1)为主语，关系(relationship)为谓语，实体2(entity2)为宾语。实体1称为entity1,实体2称为entity2,关系称为relationship",
-        "format": "确保返回标准的 JSON 格式，包含实体1、关系、实体2。如果没有三元组，只需要返回‘无三元组’，不需要输出别的句子",
+        "format": "确保返回标准的 JSON 格式，不要markdown格式，包含实体1、关系、实体2。如果没有三元组，只需要返回‘无三元组’，不需要输出别的句子",
         "example": "例如：智慧城市包含智能交通，智慧能源，智慧环境。",
         "output_example": {
             "triples": [
